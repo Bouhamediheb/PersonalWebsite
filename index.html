@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Bouhamed Iheb" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Bouhamed Iheb">Bouhamed Iheb</h1>
+
+          <p class="title">Développeur Web & Mobile</p>
+
+          <div class="separator"></div>
+
+          <p class="title">UI / UX Designer</p>
+
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Infos. de contact</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">iheb.bouhamed@iit.ens.tn</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Téléphone</p>
+
+              <a href="tel:+21629512432" class="contact-link">+216 29512432</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Date de naissance</p>
+
+              <time datetime="1982-06-23">Juin 17, 1997</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Pays</p>
+
+              <address>Sfax, TUNISIE</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/profile.php?id=100084372230309" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://twitter.com/ihebbouhamed4" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://instagram.com/ihebbouhamed" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/ihebbouhamed" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>cv</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>quiz</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">A propos de moi ..</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Je suis une personne créative et un designer UI/UX de Sfax, Tunisie travaillant dans le développement web et
+            les applications mobiles.
+            j'apprécie
+            transformer des problèmes complexes en conceptions simples, belles et intuitives.
+          </p>
+
+          <p>
+            Mon travail consiste à créer votre site Web afin qu'il soit fonctionnel et convivial, mais en même temps
+            attrayant.
+            De plus, j'ajoutera ma touche personnelle à votre produit et s'assurera qu'il est accrocheur et facile à
+            utiliser. Mon objectif est d'apporter
+            à travers votre
+            message et identité de la manière la plus créative.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Ce que je peux faire ..</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  Le design le plus moderne et de haute qualité réalisé à un niveau professionnel. </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Développement Web </h4>
+
+                <p class="service-item-text">
+                  Un site web de haute qualité réalisé à un niveau professionnel extensionible à tout moment. </p>
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Applications Mobiles </h4>
+
+                <p class="service-item-text">
+                  Développement professionel des applications pour iOS et Android avec <b> <u>Flutter</u></b>.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Design graphique</h4>
+
+                <p class="service-item-text">
+                  Je peux être charger de la création de votre identité numérique.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+        <article class="cv" data-page="cv">
+
+          <header>
+            <h2 class="h2 article-title">cv</h2>
+          </header>
+
+          <section class="timeline">
+
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Diplôme National d'Ingénieur en Informatique</h4>
+                <span> Institut International de Technologie</span>
+
+                <span>2022 — </span>
+
+                <p class="timeline-text">
+                  Je suis actuellement en 1ére année cycle d'ingénieur à Institut International de Technologie de Sfax ,
+                  TUNISIE . <br>Ref: <a href="https://iit.tn"> IIT North Americain Private University</a>
+                </p>
+
+              </li>
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Diplôme Licence Nationale en Génie Logiciel et Systèmes
+                  d'Informations</h4>
+                <span> Institut International de Technologie</span>
+                <span>2019 — 2022</span>
+
+                <p class="timeline-text">
+                  Titulaire du diplôme de Licence Nationale en Génie Logiciel et Systèmes d'Informations avec la mention
+                  <b>bien</b> .
+                  <br>Ref: <a href="https://iit.tn"> IIT North Americain Private University</a>
+                </p>
+
+              </li>
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Diplôme de baccalauréat en Science Economique et Gestion</h4>
+                <span> Lycée Secondaire 15 Novembre 1955 </span>
+
+                <span>2012 — 2016</span>
+
+                <p class="timeline-text">
+                  Titulaire du diplôme de baccalauréat en Science Economique et Gestion <b>assez bien</b> . </p>
+
+                </p>
+
+              </li>
+
+            </ol>
+
+          </section>
+
+          <section class="timeline">
+
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Expérience</h3>
+            </div>
+
+            <ol class="timeline-list">
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Designer graphique</h4>
+
+                <span>2015 — Present</span>
+
+                <p class="timeline-text">
+                  Amoureux du domaine et ayant une touche artistique depuis mon jeune âge. J'ai travaillé avec plusieurs
+                  sociétés et groupes en Sfax et ailleurs.
+                </p>
+
+              </li>
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title"> Développeur FullStack </h4>
+                <span> Application de gestion pour resaurants et cafés</span>
+                <span> à : Informatique Business Solutions</span>
+                <span>2022 — 2022</span>
+                <span>Technologies utilisées : </span>
+                <span>Flutter, Laravel , PHP , mySQL </span>
+                <span> Plateforme :</span>
+                <span> Web, Mobile et Desktop</span>
+                <p class="timeline-text">
+                  Projet réalisé dans le cadre de mon Projet de Fin d'Etudes en vue de l'obtention de la Licence
+                  Nationale en Génie Logiciel et Systèmes d'Informations
+                </p>
+
+              </li>
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title"> Développeur Web - Front End </h4>
+                <span> Plateforme de cours en ligne</span>
+                <span> à : Informatique Business Solutions</span>
+                <span>2021 — 2021</span>
+                <span>Technologies utilisées : </span>
+                <span>HTML , CSS , Javascript , jQuery , Bootstrap </span>
+
+                <p class="timeline-text">
+                  Projet réalisé dans le cadre de mon Projet de Fin d'année en 2éme année de Licence .
+                </p>
+
+              </li>
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title"> Agent de recouvrement </h4>
+                <span> Chargé de recouvrement</span>
+                <span> à : Société Tunisienne d'Electricite et de Gaz</span>
+                <span>2018 — 2018</span>
+
+
+                <p class="timeline-text">
+                  Un stage dans le domaine de la gestion .
+                </p>
+
+              </li>
+
+            </ol>
+
+          </section>
+
+          <section class="skill">
+
+            <h3 class="h3 skills-title">Mes compètences</h3>
+
+            <ul class="skills-list content-card">
+
+              <li class="skills-item">
+
+                <div class="title-wrapper">
+                  <h5 class="h5">Développement Web</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%;"></div>
+                </div>
+
+              </li>
+
+              <li class="skills-item">
+
+                <div class="title-wrapper">
+                  <h5 class="h5">Développement Mobile</h5>
+                  <data value="85">85%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%;"></div>
+                </div>
+
+              </li>
+
+              <li class="skills-item">
+
+                <div class="title-wrapper">
+                  <h5 class="h5">Design Graphique </h5>
+                  <data value="88">88%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 88%;"></div>
+                </div>
+
+              </li>
+
+              <li class="skills-item">
+
+                <div class="title-wrapper">
+                  <h5 class="h5">Branding</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%;"></div>
+                </div>
+
+              </li>
+
+              <li class="skills-item">
+
+                <div class="title-wrapper">
+                  <h5 class="h5">Conception</h5>
+                  <data value="60">60%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 60%;"></div>
+                </div>
+
+              </li>
+
+              <li class="skills-item">
+
+                <div class="title-wrapper">
+                  <h5 class="h5">Administration de bases de données</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%;"></div>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </section>
+
+          <section class="skill">
+
+            <h3 class="h3 skills-title">Technologies et outils </h3>
+
+            <!-- Images de frameworks web -->
+
+
+
+            <div class="inline-block"><a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank"
+                rel="noreferrer"><img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/cplusplus-colored.svg"
+                  width="36" height="36" alt="C++" /></a></div>
+            <div class="inline-block"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank"
+                rel="noreferrer"><img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/csharp-colored.svg"
+                  width="36" height="36" alt="C#" /></a></div>
+            <div class="inline-block"><a href="https://dart.dev/" target="_blank" rel="noreferrer"><img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/dart-colored.svg"
+                  width="36" height="36" alt="Dart" /></a></div>
+            <div class="inline-block"><a href="https://www.oracle.com/java/" target="_blank" rel="noreferrer"><img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/java-colored.svg"
+                  width="36" height="36" alt="Java" /></a></div>
+            <div class="inline-block"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"
+                rel="noreferrer"><img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg"
+                  width="36" height="36" alt="JavaScript" /></a></div>
+            <div class="inline-block"><a href="https://www.php.net/" target="_blank" rel="noreferrer"><img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/php-colored.svg"
+                  width="36" height="36" alt="PHP" /></a></div>
+            <div class="inline-block"><a href="https://www.python.org/" target="_blank" rel="noreferrer"><img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg"
+                  width="36" height="36" alt="Python" /></a></div>
+            <div class="inline-block"><a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg"
+                  width="36" height="36" alt="TypeScript" /></a></div>
+            <div class="inline-block"><a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank"
+                rel="noreferrer"><img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg"
+                  width="36" height="36" alt="HTML5" /></a></div>
+            <div class="inline-block"><a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg"
+                  width="36" height="36" alt="React" /></a></div>
+            <div class="inline-block"><a href="https://vuejs.org/" target="_blank" rel="noreferrer"><img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/vuejs-colored.svg"
+                  width="36" height="36" alt="Vue" /></a></div>
+            <div class="inline-block"><a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg"
+                  width="36" height="36" alt="CSS3" /></a></div>
+            <div class="inline-block"><a href="https://sass-lang.com/" target="_blank" rel="noreferrer"><img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/sass-colored.svg"
+                  width="36" height="36" alt="Sass" /></a></div>
+            <div class="inline-block"><a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"><img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg"
+                  width="36" height="36" alt="TailwindCSS" /></a></div>
+            <div class="inline-block"><a href="https://getbootstrap.com/" target="_blank" rel="noreferrer"><img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg"
+                  width="36" height="36" alt="Bootstrap" /></a></div>
+            <div class="inline-block"><a href="https://mui.com/" target="_blank" rel="noreferrer"><img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/materialui-colored.svg"
+                  width="36" height="36" alt="Material UI" /></a></div>
+            <div class="inline-block"><a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"><img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg"
+                  width="36" height="36" alt="NodeJS" /></a></div>
+            <div class="inline-block"><a href="https://expressjs.com/" target="_blank" rel="noreferrer"><img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-colored.svg"
+                  width="36" height="36" alt="Express" /></a></div>
+            <div class="inline-block"><a href="https://www.oracle.com/uk/index.html" target="_blank"
+                rel="noreferrer"><img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/oracle-colored.svg"
+                  width="36" height="36" alt="Oracle" /></a></div>
+            <div class="inline-block"><a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg"
+                  width="36" height="36" alt="MongoDB" /></a></div>
+            <div class="inline-block"><a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg"
+                  width="36" height="36" alt="MySQL" /></a></div>
+            <div class="inline-block"><a href="https://laravel.com/" target="_blank" rel="noreferrer"><img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/laravel-colored.svg"
+                  width="36" height="36" alt="Laravel" /></a></div>
+            <div class="inline-block"><a href="https://flutter.dev/" target="_blank" rel="noreferrer"><img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/flutter-colored.svg"
+                  width="36" height="36" alt="Flutter" /></a></div>
+            <div class="inline-block"><a href="https://www.adobe.com/uk/products/photoshop.html" target="_blank"
+                rel="noreferrer"><img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/photoshop-colored.svg"
+                  width="36" height="36" alt="Photoshop" /></a></div>
+            <div class="inline-block"><a href="adobe.com/uk/products/illustrator.html" target="_blank"
+                rel="noreferrer"><img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/illustrator-colored.svg"
+                  width="36" height="36" alt="Illustrator" /></a></div>
+
+
+
+
+
+
+
+
+
+
+          </section>
+
+
+        </article>
+
+
+
+
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio active" data-page="portfolio">
+
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+
+            <ul class="filter-list">
+
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web design</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Applications</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web development</button>
+              </li>
+
+            </ul>
+
+            <div class="filter-select-box">
+
+              <button class="filter-select" data-select>
+
+                <div class="select-value" data-selecct-value>Select category</div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+
+              </button>
+
+              <ul class="select-list">
+
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web design</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+
+              </ul>
+
+            </div>
+
+            <ul class="project-list">
+
+              <li class="project-item  active" data-filter-item data-category="web development">
+                <a href="https://github.com/IhebBouhamed/covid-19-data">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Suiveur de la pandémie de COVID-19</h3>
+
+                  <p class="project-category">Application qui collecte les données depuis plusieurs sources officielles
+                    pour créer des graphiques pour chaque pays avec un axe de temps</p>
+
+                </a>
+              </li>
+
+              <li class="project-item  active" data-filter-item data-category="web development">
+                <a href="#">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/2-1.PNG" alt="orizon" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">EducateME!</h3>
+
+                  <p class="project-category">Plateforme de cours en ligne</p>
+
+                </a>
+              </li>
+
+              <li class="project-item  active" data-filter-item data-category="web design">
+                <a href="https://github.com/IhebBouhamed/ShopWebsite_v2">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/Screenshot 2022-12-04 at 2.49.23 PM.png" alt="fundo" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Interface Site Web E-commerce</h3>
+
+                  <p class="project-category">Template pour site web e-commerce </p>
+
+                </a>
+              </li>
+
+              <li class="project-item  active" data-filter-item data-category="applications">
+                <a href="#">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/Simulator Screen Shot - iPhone 13 - 2022-05-03 at 16.52.19.png"
+                      alt="brawlhalla" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">FreedomDistribution </h3>
+
+                  <p class="project-category">Application d'achat en ligne pour une société d'optiques</p>
+
+                </a>
+              </li>
+
+              <li class="project-item  active" data-filter-item data-category="web development">
+                <a href="https://github.com/IhebBouhamed/InstaPy">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-5.png" alt="ig bot" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Instagram BOT</h3>
+
+                  <p class="project-category">Un bot pour gérer son compte Instagram , recevoir des statitiques et
+                    programmers des tâches pénibles du quotidiens</p>
+
+                </a>
+              </li>
+
+              <li class="project-item  active" data-filter-item data-category="web development">
+                <a href="#">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images//python-port-scanner.png" alt="portscanner" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Détecteur de faille</h3>
+
+                  <p class="project-category">Script qui détecte les failles des différents appareils connectés au même
+                    réseau.</p>
+
+                </a>
+              </li>
+
+              <li class="project-item  active" data-filter-item data-category="web development">
+                <a href="#">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/2a455280-b670-11ea-862b-1bf96b4b43a2.png" alt="chat" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">MultiClient Chat Instantané</h3>
+
+                  <p class="project-category">Application à base de scokets et une interface graphique similaire à MSN.
+                  </p>
+
+                </a>
+              </li>
+
+              <li class="project-item  active" data-filter-item data-category="applications">
+                <a href="https://github.com/IhebBouhamed/GestionnaireInscriptionFormation">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-8.jpg" alt="event manager" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Gestionnaire de formation</h3>
+
+                  <p class="project-category">Application Windows pour gérer les inscriptions d'un évenement ou une
+                    formation.</p>
+
+                </a>
+              </li>
+
+              <li class="project-item  active" data-filter-item data-category="applications">
+                <a href="#">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/Screenshot 2022-12-04 at 2.36.33 PM.png" alt="pos360" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">POS360 Gestion de cafés et Restaurants</h3>
+
+                  <p class="project-category">Application de gestion pour cafés et Restaurants avec une caisse tactille
+                  </p>
+
+                </a>
+              </li>
+
+            </ul>
+
+          </section>
+
+        </article>
+
+
+
+
+
+        <!--
+        - #quiz
+      -->
+
+        <article class="quiz" data-page="quiz">
+
+          <header>
+            <h2 class="h2 article-title">quiz</h2>
+          </header>
+
+          <section class="quiz-posts">
+
+            <!-- Formulaire avec les questions du quizz -->
+            <form id="quizzForm">
+              <h1 class="h3 article-title">Quizz: Connaissances en informatique</h1>
+
+              <p class="quiz-heading-text "> Ce quiz va se jouer sur des petits détails .. testons votre attention alors
+                .</p> <br>
+              <span style="display: inline-block;">
+                <h2 class="quiz-question">Question 1: Qu'est-ce que le HTML?</h2>
+                <input type="radio" name="question1" value="1">
+                <p class="quiz-answers">Hypertext Markup Language</p><br>
+                <input type="radio" name="question1" value="0">
+                <p class="quiz-answers">Hyperlinks and Text Markup Language</p><br>
+                <input type="radio" name="question1" value="0">
+                <p class="quiz-answers">Home Tool Markup Language</p><br>
+
+              </span>
+
+
+              <h2 class="quiz-question">Question 2: Qu'est-ce que le CSS?</h2>
+              <input type="radio" name="question2" value="0">
+              <p class="quiz-answers">Cascading Style Sheets</p><br>
+              <input type="radio" name="question2" value="1">
+              <p class="quiz-answers">Colorful Style Sheets</p><br>
+              <input type="radio" name="question2" value="0">
+              <p class="quiz-answers">Computer Style Sheets</p><br>
+
+              <h2 class="quiz-question">Question 3: Qu'est-ce que le PHP?</h2>
+              <input type="radio" name="question3" value="0">
+              <p class="quiz-answers">Hypertext Preprocessor</p><br>
+              <input type="radio" name="question3" value="0">
+              <p class="quiz-answers">Hypertext Programming</p><br>
+              <input type="radio" name="question3" value="1">
+              <p class="quiz-answers">Hypertext Preprogramming</p><br>
+
+              <h2 class="quiz-question">Question 4: Qu'est-ce que le SQL?</h2>
+              <input type="radio" name="question4" value="0">
+              <p class="quiz-answers">Stylish Question Language</p><br>
+              <input type="radio" name="question4" value="1">
+              <p class="quiz-answers">Structured Query Language</p><br>
+              <input type="radio" name="question4" value="0">
+              <p class="quiz-answers">Statement Question Language</p><br>
+
+              <h2 class="quiz-question">Question 5: Qu'est-ce que le JS?</h2>
+              <input type="radio" name="question5" value="0">
+              <p class="quiz-answers">JavaScript</p><br>
+              <input type="radio" name="question5" value="1">
+              <p class="quiz-answers">JavaSuper</p><br>
+              <input type="radio" name="question5" value="0">
+              <p class="quiz-answers">JustScript</p><br>
+
+              <h2 class="quiz-question">Question 6: Qu'est-ce que le XML?</h2>
+              <input type="radio" name="question6" value="0">
+              <p class="quiz-answers">eXtensible Markup Language</p><br>
+              <input type="radio" name="question6" value="1">
+              <p class="quiz-answers">eXecutable Multiple Language</p><br>
+              <input type="radio" name="question6" value="0">
+              <p class="quiz-answers">eXamine Multiple Language</p><br>
+
+              <h2 class="quiz-question">Question 7: Qu'est-ce que le JSON?</h2>
+              <input type="radio" name="question7" value="0">
+              <p class="quiz-answers">JavaScript Object Notation</p><br>
+              <input type="radio" name="question7" value="1">
+              <p class="quiz-answers">JavaScript Object Notation</p><br>
+              <input type="radio" name="question7" value="0">
+              <p class="quiz-answers">JavaScript Object Notation</p><br>
+
+              <h2 class="quiz-question">Question 8: Qu'est-ce que le AJAX?</h2>
+              <input type="radio" name="question8" value="0">
+              <p class="quiz-answers">Asynchronous JavaScript and XML</p><br>
+              <input type="radio" name="question8" value="1">
+              <p class="quiz-answers">Asynchronous JavaScript and XML</p><br>
+              <input type="radio" name="question8" value="0">
+              <p class="quiz-answers">Asynchronous JavaScript and XML</p><br>
+
+              <h2 class="quiz-question">Question 9: Qu'est-ce que le JQUERY?</h2>
+              <input type="radio" name="question9" value="0">
+              <p class="quiz-answers">jQuery</p><br>
+              <input type="radio" name="question9" value="1">
+              <p class="quiz-answers">jQuery</p><br>
+              <input type="radio" name="question9" value="0">
+              <p class="quiz-answers">jQuery</p><br>
+
+              <h2 class="quiz-question">Question 10: Qu'est-ce que le BOOTSTRAP?</h2>
+              <input type="radio" name="question10" value="0">
+              <p class="quiz-answers">Bootstrap</p><br>
+              <input type="radio" name="question10" value="1">
+              <p class="quiz-answers">Bootstrap</p><br>
+              <input type="radio" name="question10" value="0">
+              <p class="quiz-answers">Bootstrap</p><br>
+
+
+              <input type="button" value="Vérifier les réponses" onclick="verifierReponses()">
+            </form>
+
+            <!-- Zone d'affichage de la note -->
+            <div id="noteDiv" style="display: none;">
+              <h1>Note: <span id="note"></span>/15</h1>
+            </div>
+
+            <!-- Inclusion du script JavaScript pour vérifier les réponses et afficher la note -->
+
+
+          </section>
+
+        </article>
+
+
+
+
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+
+          <header>
+            <h2 class="h2 article-title">Me contacter</h2>
+          </header>
+
+
+
+          <section class="contact-form">
+
+            <h3 class="h3 form-title">Formulaire</h3>
+
+            <form action="#" class="form" data-form>
+
+              <div class="input-wrapper">
+                <input type="text" name="fullname" class="form-input" placeholder="Votre Nom" required data-form-input>
+
+                <input type="email" name="email" class="form-input" placeholder="Votre adresse email" required
+                  data-form-input>
+              </div>
+
+              <textarea name="message" class="form-input" placeholder="Votre message" required
+                data-form-input></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Envoyer!</span>
+              </button>
+
+            </form>
+
+          </section>
+
+        </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
